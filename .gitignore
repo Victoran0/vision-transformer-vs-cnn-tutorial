@@ -1,0 +1,6 @@
+models/
+food-101/
+data/
+food-101.tar.gz
+playground.ipynb
+__pycache__/
