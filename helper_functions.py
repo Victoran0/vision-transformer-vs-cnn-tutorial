@@ -1,5 +1,5 @@
 """
-A series of helper functions used throughout the course.
+A series of helper functions used throughout the tutorial.
 
 If a function gets defined once and could be used over and over, it'll go in here.
 """
@@ -48,7 +48,7 @@ def plot_loss_curves(results, model_name, train_time):
     plt.tick_params('both', which='major', labelsize=14)
     plt.legend()
 
-    plt.savefig(f'images/{model_name}_loss_curve')
+    plt.savefig(f'figures/{model_name}_loss_curve')
 
 
 def set_seeds(seed: int = 42):
