@@ -14,13 +14,14 @@ This repository accompanies a machine learning tutorial that explains — with a
 ├── data_setup.py               # Helper: dataset download & DataLoader creation
 ├── engine.py                   # Helper: training & evaluation loop
 ├── utils.py                    # Helper: set_seeds, plot_loss_curves, timer
+├── LICENSE
 ├── figures/
 │   ├── fig1a_cnn_pipeline.png
 │   ├── fig1b_vit_pipeline.png
 │   ├── fig2_receptive.png
-│   ├── fig3_attention.png
+│   ├── fig3.1_attention.png
+│   └── fig3.2_loss_comparison.png
 │   ├── fig4_comparison.png
-│   └── fig5_loss_comparison.png
 └── README.md
 ```
 
@@ -59,7 +60,7 @@ The notebook fine-tunes two pre-trained models on a **225-image subset of Food-1
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/victoran0/vision-transformer-vs-cnn-tutorial.git
 cd <your-repo>
 ```
 
