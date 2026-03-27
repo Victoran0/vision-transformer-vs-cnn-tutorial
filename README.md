@@ -14,7 +14,6 @@ This repository accompanies a machine learning tutorial that explains — with a
 ├── data_setup.py               # Helper: dataset download & DataLoader creation
 ├── engine.py                   # Helper: training & evaluation loop
 ├── utils.py                    # Helper: set_seeds, plot_loss_curves, timer
-├── ViT_vs_CNN_tutorial.pdf
 ├── LICENSE
 ├── figures/
 │   ├── fig1a_cnn_pipeline.png
