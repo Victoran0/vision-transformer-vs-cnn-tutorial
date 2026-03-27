@@ -9,11 +9,12 @@ This repository accompanies a machine learning tutorial that explains — with a
 ## 📁 Repository Contents
 
 ```
-├── notebook.ipynb              # Main experiment notebook (ResNet-50 vs ViT fine-tuning)
+├── experiment.ipynb              # Main experiment notebook (ResNet-50 vs ViT fine-tuning)
 ├── ViT_vs_CNN_Tutorial.pdf    # Full written tutorial with figures
 ├── data_setup.py               # Helper: dataset download & DataLoader creation
 ├── engine.py                   # Helper: training & evaluation loop
 ├── utils.py                    # Helper: set_seeds, plot_loss_curves, timer
+├── ViT_vs_CNN_tutorial.pdf
 ├── LICENSE
 ├── figures/
 │   ├── fig1a_cnn_pipeline.png
